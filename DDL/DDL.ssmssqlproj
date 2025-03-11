@@ -28,6 +28,72 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - CREATE DATABASE.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery2 - CREATE  TABLE Directions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - CREATE  TABLE Directions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - CREATE TABLE Groups.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - CREATE TABLE Groups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - CREATE TABLE Students.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - CREATE TABLE Students.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - CREATE TABLE Teachers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - CREATE TABLE Teachers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3 - CREATE TABLE Disciplines.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3 - CREATE TABLE Disciplines.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4 - CREATE TABLE Schedule.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4 - CREATE TABLE Schedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5 - ALTER.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5 - ALTER.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7 - .sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7 - .sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7 - ALTER Holidays.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7 - ALTER Holidays.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7 - CREATE DaysOOF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7 - CREATE DaysOOF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7 - CREATE holidays.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7 - CREATE holidays.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">

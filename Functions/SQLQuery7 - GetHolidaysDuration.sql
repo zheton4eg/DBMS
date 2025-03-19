@@ -1,8 +1,7 @@
---SQLQuery7 - GetHolidaysDuration.sql
-USE PV_319_Import;
+USE PV_319_IMPORT;
 GO
 
-CREATE FUNCTION GetHolidaysDuration (@name AS NVARCHAR(150))RETURNS TINYINT
+ALTER FUNCTION GetHolidaysDuration (@name AS NVARCHAR(150))RETURNS TINYINT
 BEGIN
 	RETURN (SELECT duration FROM Holidays WHERE holiday_name LIKE @name);
 END

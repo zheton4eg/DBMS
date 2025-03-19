@@ -1,5 +1,4 @@
---SQLQuery7 - CREATE Holidays.sql
-USE PV_319_Import;
+USE PV_319_DDL;
 GO
 
 --DROP TABLE Holidays;

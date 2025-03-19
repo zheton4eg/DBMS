@@ -1,5 +1,4 @@
---SQLQuery7 - ALTER Holidays.sql
-USE PV_319_Import;
+USE PV_319_IMPORT
 GO
 
 ALTER TABLE		Holidays

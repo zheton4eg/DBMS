@@ -1,5 +1,5 @@
+
 USE PV_319_IMPORT;
-SET DATEFIRST 1;
 GO
 
 ALTER PROCEDURE dbo.sp_SetScheduleForStacionarGroup

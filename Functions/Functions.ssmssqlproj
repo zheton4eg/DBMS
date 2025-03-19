@@ -4,12 +4,12 @@
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="HOME-PC\SQLEXPRESS:HOME-PC\zheka">
-          <Created>2025-03-11T17:22:47.8653824+03:00</Created>
+          <Created>2025-03-11T16:35:01.4123147+03:00</Created>
           <Type>SQL</Type>
           <Server>HOME-PC\SQLEXPRESS</Server>
           <UserName />
           <Authentication>Windows Authentication</Authentication>
-          <InitialDB>PV_319_IMPORT</InitialDB>
+          <InitialDB>PV_319_DDL</InitialDB>
           <LoginTimeout>30</LoginTimeout>
           <TrustServerCertificate>True</TrustServerCertificate>
           <HostNameInServerCertificate />
@@ -41,8 +41,8 @@
           <FullPath>SQLQuery1 - GetDisciplineID.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery1 - GetGroupID.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - GetGroupID.sql</FullPath>
         </FileNode>
@@ -53,8 +53,8 @@
           <FullPath>SQLQuery7 - GetEasterDate.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery7 - GetHolidayID.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery7 - GetHolidayID.sql</FullPath>
         </FileNode>

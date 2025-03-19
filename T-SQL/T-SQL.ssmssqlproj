@@ -29,8 +29,8 @@
           <FullPath>SQLQuery0 - Holidays test.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery0 - Schedule procedures test.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQuery0 - Schedule procedures test.sql</FullPath>
         </FileNode>
@@ -76,6 +76,18 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - CREATE PROC ScheduleForGroup.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery2 - CREATE PROC ScheduleForStacionarGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - CREATE PROC ScheduleForStacionarGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - Schedule procedures test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - Schedule procedures test.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery3 - CREATE PROCEDURE CountSalary.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
@@ -87,12 +99,6 @@
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery3 - CREATE TABLE Salary.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery7 - CREATE PROCEDURE AddHolidays.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery7 - CREATE PROCEDURE AddHolidays.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery7 - CREATE PROCEDURE NewYear.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>

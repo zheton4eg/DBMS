@@ -1,8 +1,8 @@
-USE PV_319_Import;
+USE PV_319_IMPORT;
 SET DATEFIRST 1;
 GO
 
-CREATE PROCEDURE sp_AddAllHolidaysFor @year AS SMALLINT
+ALTER PROCEDURE sp_AddAllHolidaysFor @year AS SMALLINT
 AS
 BEGIN
 	EXEC sp_AddHolidays @year, N'Нов%';

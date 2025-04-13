@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQuery0 - Days check.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery0 - Days check.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery0 - Holidays test.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
@@ -29,8 +35,8 @@
           <FullPath>SQLQuery0 - Holidays test.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery0 - Schedule procedures test.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery0 - Schedule procedures test.sql</FullPath>
         </FileNode>
@@ -82,12 +88,6 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - CREATE PROC ScheduleForStacionarGroup.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - Schedule procedures test.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - Schedule procedures test.sql</FullPath>
-        </FileNode>
         <FileNode Name="SQLQuery3 - CREATE PROCEDURE CountSalary.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
@@ -111,6 +111,12 @@
           <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery7 - CREATE PROCEDURE sp_AddAllHolidaysFor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery8 - Group days.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HOME-PC\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HOME-PC\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery8 - Group days.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

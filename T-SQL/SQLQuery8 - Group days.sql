@@ -3,8 +3,8 @@ USE PV_319_IMPORT;
 SET DATEFIRST 1;
 GO
 
---ALTER FUNCTION GetLearningDaysFor(@group_name NVARCHAR(10))RETURNS NVARCHAR(50)
-ALTER PROCEDURE sp_GetLearningDaysFor(@group_name NVARCHAR(10))
+ALTER FUNCTION GetLearningDaysFor(@group_name NVARCHAR(10))RETURNS NVARCHAR(50)
+--ALTER PROCEDURE sp_GetLearningDaysFor(@group_name NVARCHAR(10))
 AS
 BEGIN
 --	PRINT @group_name;

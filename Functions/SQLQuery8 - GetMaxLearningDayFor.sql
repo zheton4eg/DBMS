@@ -1,8 +1,8 @@
 USE PV_319_IMPORT;
 GO
 
---ALTER FUNCTION GetMaxLearningDayFor(@group NVARCHAR(10))RETURNS TINYINT
-ALTER PROCEDURE sp_GetMaxLearningDayFor @group NVARCHAR(10)
+ALTER FUNCTION GetMaxLearningDayFor(@group NVARCHAR(10))RETURNS TINYINT
+--ALTER PROCEDURE sp_GetMaxLearningDayFor @group NVARCHAR(10)
 AS
 BEGIN
 	DECLARE
@@ -12,11 +12,13 @@ BEGIN
 		BEGIN
 			IF @weekdays & POWER(2,@day) !=0
 			BEGIN
-				--RETURN @day;
-				PRINT @day
+				--RETURN @day;				
+--				PRINT N'Next';
+--				PRINT @day
 				BREAK;
 			END
+		--PRINT @day
 			SET @day -=1;
 		END
-		--RETURN -1;
+		RETURN @day;
 END

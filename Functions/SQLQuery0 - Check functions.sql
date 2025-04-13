@@ -17,8 +17,9 @@ PRINT(dbo.GetLastDateForGroup(N'PV_319'));
 --DECLARE @date AS DATE = (SELECT MAX([date]) FROM Schedule WHERE [group]=dbo.GetGroupID(N'PV_319'));
 --PRINT(@date);
 --PRINT (dbo.GetMaxLearningDayFor(N'PV_319'));
+PRINT (dbo.GetNextLearningDayFor(N'PV_319'));
 --EXEC sp_GetMaxLearningDayFor N'PV_319';
-
+EXEC sp_PrinScheduleForGroup N'PV_319';
 --DECLARE @group	AS NVARCHAR(10)	=	N'PV_319';
 --DECLARE	@date	AS DATE			=	dbo.GetMaxLearningDateFor(@group);
 --WHILE @date < '2025-01-01'

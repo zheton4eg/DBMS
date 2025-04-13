@@ -2,11 +2,11 @@
 USE PV_319_IMPORT;
 GO
 
---PRINT(dbo.GetLearningDaysFor(N'PV_319'));
-EXEC sp_GetLearningDaysFor N'PV_319';
+PRINT(dbo.GetLearningDaysFor(N'PV_319'));
+--EXEC sp_GetLearningDaysFor N'PV_319';
 
---SELECT
---	group_name							AS	N'Группа',
---	dbo.GetLearningDaysFor(group_name)	AS	N'Учебные дни'
---FROM Groups
---;
+SELECT
+	group_name							AS	N'Группа',
+	dbo.GetLearningDaysFor(group_name)	AS	N'Учебные дни'
+FROM Groups
+;

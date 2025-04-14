@@ -51,13 +51,14 @@ BEGIN
 	
 			END
 			PRINT('------------------------------------');
-			IF(DATEPART(WEEKDAY, @date)=6)
-			BEGIN
-				SET	@date = DATEADD(DAY, 3, @date);
-			END
-			ELSE
-			BEGIN
-				SET	@date = DATEADD(DAY, 2, @date);
-			END
+			--IF(DATEPART(WEEKDAY, @date)=6)
+			--BEGIN
+			--	SET	@date = DATEADD(DAY, 3, @date);
+			--END
+			--ELSE
+			--BEGIN
+			--	SET	@date = DATEADD(DAY, 2, @date);
+			--END
+			SET @date=dbo.GetNextLearningDateFor(@group_name);
 		END
 END
